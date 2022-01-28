@@ -4,11 +4,12 @@
   </head>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      navigator.clipboard.writeText("​")
+      document.getElementById("btn").addEventListener('click', navigator.clipboard.writeText("​"))
     })
   </script>
   <body>
     <h1>Why did u come here??</h1>
     <h6>Anyway you can now copy paste letters from here</h6>
+    <a id="btn">Click here to copy rickroll link</a>
   </body>
 </html>
