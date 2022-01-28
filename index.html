@@ -4,7 +4,8 @@
   </head>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      document.getElementById("btn").addEventListener('click', navigator.clipboard.writeText("​"))
+      const btn = document.getElementById("btn")
+      btn.addEventListener('click', function() {navigator.clipboard.writeText("​")})
     })
   </script>
   <body>
